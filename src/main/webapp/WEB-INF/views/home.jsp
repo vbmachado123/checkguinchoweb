@@ -7,6 +7,7 @@
 <title>CheckGuincho</title>
 </head>
 <body>
+		<!-- TEMPORÁRIO  -->
 	<center>
 		<img src="assets/logo.png" alt="some text" width=400 height=400>
 	</center>
