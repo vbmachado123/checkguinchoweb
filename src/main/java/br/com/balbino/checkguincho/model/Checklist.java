@@ -2,7 +2,16 @@ package br.com.balbino.checkguincho.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Checklist implements Serializable {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private int idInspecao;
     private String radio = "   ";
@@ -25,6 +34,11 @@ public class Checklist implements Serializable {
     private String chaves = "   ";
     private String moto = "   ";
 
+    /**
+     * @deprecated hibernate only
+     */
+    public Checklist() {}
+    
     public int getId() {
         return id;
     }

@@ -1,1 +1,12 @@
+br/com/balbino/checkguincho/model/Checklist.class
+br/com/balbino/checkguincho/model/Pdf.class
+br/com/balbino/checkguincho/model/TipoRegistro.class
+br/com/balbino/checkguincho/model/Usuario.class
+br/com/balbino/checkguincho/model/Localizacao.class
+br/com/balbino/checkguincho/model/Cor.class
+br/com/balbino/checkguincho/model/Modelo.class
+br/com/balbino/checkguincho/model/Marca.class
+br/com/balbino/checkguincho/model/FigurasInspecao.class
 br/com/balbino/checkguincho/controller/HomeController.class
+br/com/balbino/checkguincho/model/FotosInspecao.class
+br/com/balbino/checkguincho/model/Inspecao.class

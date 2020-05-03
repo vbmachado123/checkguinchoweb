@@ -2,12 +2,26 @@ package br.com.balbino.checkguincho.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class FigurasInspecao  implements Serializable {
-    private int id;
+ 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
     private int idInspecao;
     private String caminhoFigura;
     private String caminhoAssinaturaRetira;
     private String caminhoAssinaturaEntrega;
+    
+    /**
+     * @deprecated hibernate only
+     */
+    public FigurasInspecao() {}
 
     public int getId() {
         return id;
